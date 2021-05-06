@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="utf-8">
+    <title>Tryggleik og regelverk</title>
+  
+     <style>
+         
+        body{
+            background-color: bisque;
+       
+            font-family: 'Roboto', sans-serif;
+            background-color: bisque;
+          
+        }
+    
+        main{
+            max-width: 970px;
+          margin: auto;
+            display: grid;
+            grid-template-columns: repeat(12,1fr);
+            grid-gap: 5px;
+              background-color: bisque;
+            
+        }
+
+     
+
+         main h1, main p{
+             padding:10px;
+         }
+         
+         main a, main div{
+             background-color: bisque;
+             text-decoration: none;
+         }
+         
+         main img, main vodeo{
+             width: 100%;
+         }
+         
+        a{
+            background-color: bisque;
+        }
+        
+
+        
+           
+        .kol-1{grid-column: span 1;}
+        .kol-2{grid-column: span 2;}
+        .kol-3{grid-column: span 3;}
+        .kol-4{grid-column: span 4;}
+        .kol-5{grid-column: span 5;}
+        .kol-6{grid-column: span 6;}
+        .kol-7{grid-column: span 7;}
+        .kol-8{grid-column: span 8;}
+        .kol-9{grid-column: span 9;}
+        .kol-10{grid-column: span 10;}
+        .kol-11{grid-column: span 11;}
+        .kol-12{grid-column: span 12;}
+         
+         html{margin: 0;
+             background-color: bisque;
+             
+             
+}
+         
+
+
+
+
+       
+
+
+         <!Menyen>
+         
+         header{
+             max-width: 970px;
+             font-family: 'Roboto', sans-serif;
+            
+             
+         }
+         
+         nav{
+             background-color: #282828;
+             display: grid;
+             grid-template-columns: auto repeat(8,1fr);
+             align-items: center;
+             margin-bottom: 15px;
+             
+            
+         }
+        
+         nav a{
+             padding-left: 30px;
+             padding-right: 30px;
+             color: #ffffff;
+             padding: 20px;
+           background-color: #282828;
+             font-size: 20px;
+             font-family: 'Roboto', sans-serif;
+         }
+
+        nav a:hover{
+            color: #F0c330;
+            transition: 0.5s;
+        }
+         
+         nav.heim{
+            
+             color: coral;
+             font-size: 50px;
+             padding: 10px;
+         }
+
+
+    
+h1{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+         
+         
+    </style>
+         
+         
+ 
